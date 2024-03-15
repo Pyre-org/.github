@@ -30,28 +30,19 @@
   - **스크린샷 커뮤니티 연동**: 사용자는 Pyre를 통해 플레이 중인 게임 커뮤니티에 스크린샷을 바로 업로드할 수 있습니다. 또한, 몇 번의 클릭만으로 게임 채널 내 자신이 운영 중인 룸에 스크린샷을 **배포**할 수 있습니다.
 
 ## 🛠 기술 스택 - Backend
-#### 공통
   - Java 21
   - Spring Boot (3.2.2)
+  - Spring Web
+  - Spring Data JPA
   - Spring Cloud
-###### PyreGateway
-- Jwt
-###### PyreAuth
-- Spring Web
-- Spring Data JPA
-- Mysql
-- Redis
-- Jwt
-- Spring Security
-###### PyreCommunity
-- Spring Web
-- Redis
-- Spring Data JPA
-- Mysql
-###### PyreFeed
-- Spring Web
-- MongoDB
-###### PyreChat - 구현 예정..
+  
+  - Jwt
+  - Spring Security
+  
+  - Mysql
+  - Redis
+  - MongoDB for PyreFeed
+
   
 ## 🛠 기술 스택 - Frontend
   - Electron with Vite
@@ -64,5 +55,15 @@
 
 ## 🔅 프로젝트 구조
 ### Backend
+##### PyreGateway
+  - **Gateway**: 백엔드와 프론트의 유일한 접근 서버
+  - **기능**: API 라우팅, 유저 인증 및 권한 확인, 로드밸런싱
+##### PyreAuth
+##### PyreCommunity
+
+
+##### PyreFeed
+
+###### PyreChat - 구현 예정..
 
 ### Frontend

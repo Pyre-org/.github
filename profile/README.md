@@ -33,23 +33,25 @@
 #### 공통
   - Java 21
   - Spring Boot (3.2.2)
-  - SpringCloud
+  - Spring Cloud
 ###### PyreGateway
 - Jwt
 ###### PyreAuth
-- Spring MVC
+- Spring Web
 - Spring Data JPA
 - Mysql
 - Redis
 - Jwt
 - Spring Security
 ###### PyreCommunity
-- Spring MVC
+- Spring Web
+- Redis
 - Spring Data JPA
 - Mysql
 ###### PyreFeed
-- Spring WebFlux
+- Spring Web
 - MongoDB
+###### PyreChat - 구현 예정..
   
 ## 🛠 기술 스택 - Frontend
   - Electron with Vite
@@ -61,3 +63,6 @@
   - Shadcn/ui for component library
 
 ## 🔅 프로젝트 구조
+### Backend
+
+### Frontend

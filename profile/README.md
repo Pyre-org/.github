@@ -145,8 +145,10 @@ yarn build:mac
     - Redis를 사용하여 기간제 룸 초대권을 생성 및 관리합니다.
     - Open API [링크](https://apis.pyre.live/community/swagger-ui/index.html)
 #### [PyreFeed](https://github.com/Pyre-org/pyreFeedMvc.git)
-  - **기능**: 피드 CRUD 
-###### PyreChat - 구현 예정.. (kafka)
+  - **기능**:
+    - NoSQL 데이터베이스 MongoDB를 사용하여 파이어의 피드 데이터를 관리합니다.
+    - 스크린샷으로부터 발생하는 피드를 저장하고, 조회할 수 있습니다.
+###### PyreChat - 구현 예정..
 
 ### Frontend
 

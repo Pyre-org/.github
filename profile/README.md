@@ -130,9 +130,37 @@ yarn build:mac
   - **Gateway**: 백엔드와 프론트의 통신문
   - **기능**: API 라우팅, 유저 인증 및 권한 확인, 로드밸런싱
 #### [PyreAuth](https://github.com/Pyre-org/PyreAuth-source.git)
-  - **기능**: 유저 CRUD, Jwt 발급 및 저장, 이메일 센더, S3 업로드 엔드포인트 관리
+  - **기능**:
+    - 유저의 회원가입, 로그인 등 인증 및 인가를 관리합니다.
+    - Oauth2도 함께 관리합니다.
+    - JWT (access token + refresh token) 발급 및 Redis를 통해 refresh를 저장합니다.
+    - 저장된 리프레시 토큰은 1번 사용되면 다시 재발급 + 재저장 됩니다.
+    - 이미지 업로드를 위한 S3 업로드 서비스가 포함되어 있습니다.
+    - 유저 프로필 관리 및 이메일 서비스도 함께 포함되어 있습니다.
+    - Open API [링크](https://apis.pyre.live/auth-service/swagger-ui/index.html)
 #### [PyreCommunity](https://github.com/Pyre-org/PyreCommunity.git)
-  - **기능**: 채널 - 룸 - 스페이스 계층 CRUD
+  - **기능**:
+    - 관계형 데이터베이스를 사용하여 파이어 커뮤니티의 채널-룸-스페이스 계층의 데이터를 관리합니다.
+    - 엔티티
+      - Channel : 채널을 구성하는 엔티티입니다.
+        - Channel (One-Many) Room
+        - Channel (One-Many) ChannelEndUser
+      - ChannelEndUser : 채널에 가입한 유저를 구성하기 위한 엔티티입니다.
+        - ChannelEndUser (Many-One) Channel
+        - ChannelEndUser (One-One) userId (UUID) - Auth 서비스와 Feign 통신을 통해 참조합니다.
+        - ChannelEndUser (One-Many) RoomEndUser
+      - Room : 룸을 구성하기 위한 엔티티입니다.
+        - Room (Many-One) Channel
+       - Room (One-Many) RoomEndUser
+       - Room (One-Many) Space
+      - RoomEndUser : 룸에 가입한 유저를 구성하기 위한 엔티티입니다. (유저에 대한 정규화 필요)
+        - RoomEndUser (Many-One) Channel
+        - RoomEndUser (Many-One) ChannelEndUser
+        - RoomEndUser (Many-One) userId (UUID) - Auth 서비스와 Feign 통신을 통해 참조합니다.
+      - Space : 스페이스를 구성하기 위한 엔티티입니다.
+        - Space (Many-One) Room
+    - Redis를 사용하여 기간제 룸 초대권을 생성 및 관리합니다.
+    - Open API [링크](https://apis.pyre.live/community/swagger-ui/index.html)
 #### [PyreFeed](https://github.com/Pyre-org/pyreFeedMvc.git)
   - **기능**: 피드 CRUD 
 ###### PyreChat - 구현 예정.. (kafka)

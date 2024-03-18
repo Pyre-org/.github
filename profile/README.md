@@ -69,3 +69,17 @@
 ###### PyreChat - 구현 예정.. (kafka)
 
 ### Frontend
+
+## 영상
+### 채널 생성(채널 승인 요청)
+![채널 승인 요청](https://media.discordapp.net/attachments/393025698907947009/1219229952654970900/3da16a0c86508e94.gif?ex=660a8b60&is=65f81660&hm=674e7d03ca7cf65cbf086088436f6428310023be0fd4384ddcabe4d78ceb15b4&=&width=895&height=503)
+### 채널 구독 및 룸 생성
+![채널 구독 및 룸 생성](https://cdn.discordapp.com/attachments/393025698907947009/1219229949911892018/d2a22948f56fd7a8.gif?ex=660a8b60&is=65f81660&hm=ae5cbd6599d5dab340d015c936a78d96b239280ff9c77986978d0560add1c0fb&)
+### 룸 정보 수정
+![룸 정보 수정](https://media.discordapp.net/attachments/393025698907947009/1219229950779850833/3e3d67cbdf96b7d9.gif?ex=660a8b60&is=65f81660&hm=edac4b5042f6fd24c66687f45fb97f01d4db7b4eb3d5a19d16cde302cfd3126b&=&width=895&height=503)
+### 스페이스 생성
+![스페이스 생성](https://media.discordapp.net/attachments/393025698907947009/1219229950381658222/315221bb75e8ef94.gif?ex=660a8b60&is=65f81660&hm=c7361e6fda4791951b040efc1a8e42b9271993925cddaac55f985babc050b93d&=&width=895&height=503)
+### 스크린샷 (CTRL + SHIFT + C 영역캡처 및 자동 피드 업로드)
+![피드 자동 업로드](https://media.discordapp.net/attachments/393025698907947009/1219229951622905956/a2cbc38adccb09cf.gif?ex=660a8b60&is=65f81660&hm=300c873da8a056c877c0762224375a6baa22efb6dab8c45969bc51bf1eda52fa&=&width=895&height=503)
+### 스크린샷 링크화 (캡처 후 클립보드에 자동으로 저장됨)
+![스크린샷 링크화](https://cdn.discordapp.com/attachments/393025698907947009/1219232242224595025/2240875837fbeaae.gif?ex=660a8d82&is=65f81882&hm=d01a68e588bdbf8e7e6681fc91a0d387e815dd20f5168742aa277c2e116abe8c&)

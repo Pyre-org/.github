@@ -138,16 +138,17 @@ yarn build:mac
     - 저장된 리프레시 토큰은 1번 사용되면 다시 재발급 + 재저장 됩니다.
     - 이미지 업로드를 위한 S3 업로드 서비스가 포함되어 있습니다.
     - 유저 프로필 관리 및 이메일 서비스도 함께 포함되어 있습니다.
-    - Open API [링크](https://apis.pyre.live/auth-service/swagger-ui/index.html)
+    - Swagger API [링크](https://apis.pyre.live/auth-service/swagger-ui/index.html)
 #### [PyreCommunity](https://github.com/Pyre-org/PyreCommunity.git)
   - **기능**:
     - 관계형 데이터베이스를 사용하여 파이어 커뮤니티의 채널-룸-스페이스 계층의 데이터를 관리합니다.
     - Redis를 사용하여 기간제 룸 초대권을 생성 및 관리합니다.
-    - Open API [링크](https://apis.pyre.live/community/swagger-ui/index.html)
+    - Swagger API [링크](https://apis.pyre.live/community/swagger-ui/index.html)
 #### [PyreFeed](https://github.com/Pyre-org/pyreFeedMvc.git)
   - **기능**:
     - NoSQL 데이터베이스 MongoDB를 사용하여 파이어의 피드 데이터를 관리합니다.
     - 스크린샷으로부터 발생하는 피드를 저장하고, 조회할 수 있습니다.
+    - Swagger API [링크](https://apis.pyre.live/feed/swagger-ui/index.html)
 ###### PyreChat - 구현 예정..
 
 ### Frontend

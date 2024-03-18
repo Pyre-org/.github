@@ -53,6 +53,38 @@
   - TailwindCss for styling
   - Shadcn/ui for component library
 
+## 🧰 빌드 및 실행 가이드
+### 1. 레포지토리 클론
+```
+git clone https://github.com/Pyre-org/Pyre-Frontend.git
+```
+### 2. 패키지 설치
+```
+npm i
+```
+or
+```
+yarn
+```
+### 3. Electron 빌드 커맨드 실행
+### Windows
+```
+npm run build:win
+```
+or
+```
+yarn build:win
+```
+
+### MacOS
+```
+npm run build:mac
+```
+or
+```
+yarn build:mac
+```
+
 ## 🔅 프로젝트 구조
 ### Backend
 <img src="https://cdn.discordapp.com/attachments/393025698907947009/1219214404193882122/d51f8c7f765ef5fd.png?ex=660a7ce5&is=65f807e5&hm=348780b6d433faa213bdaee0b5e359d70b1ba34feca3eed253418572291faa07&" alt="drawing" width="600"/>

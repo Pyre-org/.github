@@ -77,7 +77,8 @@
   - Mysql
   - Redis
   - MongoDB for PyreFeed
-
+    
+  - Open API Swagger
   
 ## 🛠 기술 스택 - Frontend
   - Electron with Vite

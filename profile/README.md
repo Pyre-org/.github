@@ -3,7 +3,7 @@
 
 #### 현재 파이어는 미완성 프로젝트입니다. 다운로드를 통해 파이어를 테스트할 수 있습니다.
 #### [Github 조직](https://github.com/Pyre-org) 
-#### [다운로드 링크](http://naver.me/xc93Mkq0)
+#### 윈도우 [프로그램 다운로드 링크](http://naver.me/xc93Mkq0)
 
 
 ## 🏢 TEAM

@@ -141,24 +141,6 @@ yarn build:mac
 #### [PyreCommunity](https://github.com/Pyre-org/PyreCommunity.git)
   - **기능**:
     - 관계형 데이터베이스를 사용하여 파이어 커뮤니티의 채널-룸-스페이스 계층의 데이터를 관리합니다.
-    - 엔티티
-      - Channel : 채널을 구성하는 엔티티입니다.
-        - Channel (One-Many) Room
-        - Channel (One-Many) ChannelEndUser
-      - ChannelEndUser : 채널에 가입한 유저를 구성하기 위한 엔티티입니다.
-        - ChannelEndUser (Many-One) Channel
-        - ChannelEndUser (One-One) userId (UUID) - Auth 서비스와 Feign 통신을 통해 참조합니다.
-        - ChannelEndUser (One-Many) RoomEndUser
-      - Room : 룸을 구성하기 위한 엔티티입니다.
-        - Room (Many-One) Channel
-       - Room (One-Many) RoomEndUser
-       - Room (One-Many) Space
-      - RoomEndUser : 룸에 가입한 유저를 구성하기 위한 엔티티입니다. (유저에 대한 정규화 필요)
-        - RoomEndUser (Many-One) Channel
-        - RoomEndUser (Many-One) ChannelEndUser
-        - RoomEndUser (Many-One) userId (UUID) - Auth 서비스와 Feign 통신을 통해 참조합니다.
-      - Space : 스페이스를 구성하기 위한 엔티티입니다.
-        - Space (Many-One) Room
     - Redis를 사용하여 기간제 룸 초대권을 생성 및 관리합니다.
     - Open API [링크](https://apis.pyre.live/community/swagger-ui/index.html)
 #### [PyreFeed](https://github.com/Pyre-org/pyreFeedMvc.git)

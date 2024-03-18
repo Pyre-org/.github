@@ -55,15 +55,17 @@
 
 ## 🔅 프로젝트 구조
 ### Backend
-##### PyreGateway
-  - **Gateway**: 백엔드와 프론트의 유일한 접근 서버
+<img src="https://cdn.discordapp.com/attachments/393025698907947009/1219214404193882122/d51f8c7f765ef5fd.png?ex=660a7ce5&is=65f807e5&hm=348780b6d433faa213bdaee0b5e359d70b1ba34feca3eed253418572291faa07&" alt="drawing" width="600"/>
+
+#### [PyreGateway](https://github.com/Pyre-org/PyreGateway-source.git)
+  - **Gateway**: 백엔드와 프론트의 통신문
   - **기능**: API 라우팅, 유저 인증 및 권한 확인, 로드밸런싱
-##### PyreAuth
-##### PyreCommunity
-
-
-##### PyreFeed
-
-###### PyreChat - 구현 예정..
+#### [PyreAuth](https://github.com/Pyre-org/PyreAuth-source.git)
+  - **기능**: 유저 CRUD, Jwt 발급 및 저장, 이메일 센더, S3 업로드 엔드포인트 관리
+#### [PyreCommunity](https://github.com/Pyre-org/PyreCommunity.git)
+  - **기능**: 채널 - 룸 - 스페이스 계층 CRUD
+#### [PyreFeed](https://github.com/Pyre-org/pyreFeedMvc.git)
+  - **기능**: 피드 CRUD 
+###### PyreChat - 구현 예정.. (kafka)
 
 ### Frontend

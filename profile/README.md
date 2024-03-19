@@ -196,8 +196,10 @@ yarn build:mac
 ### 로그인 페이지
 ![로그인 페이지](https://github.com/Pyre-org/.github/assets/39799541/12597fa4-8f61-4b0d-bb35-dc906759dc58)
 
-### 회원가입 페이지
+### 회원가입 페이지 (이메일 인증 필요)
 ![회원가입 페이지](https://github.com/Pyre-org/.github/assets/39799541/71135512-5d7b-48fa-8973-663c120a55a7)
+![image](https://github.com/Pyre-org/.github/assets/39799541/ac908e70-e05b-4756-95ae-86ed3a440902)
+
 
 ### 마이페이지 최신 피드
 ![마이페이지 최신 피드](https://github.com/Pyre-org/.github/assets/39799541/fb279aea-2e17-4528-8b7b-e3ac7db2f1a6)

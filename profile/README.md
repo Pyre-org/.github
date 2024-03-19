@@ -26,12 +26,12 @@
 
   - **스크린샷 전용 및 채팅 커뮤니티**: Pyre는 스크린샷 공유를 위한 전용 **커뮤니티**를 제공하며, 사용자들은 여기서 스크린샷을 업로드하고 **채팅**할 수 있습니다.
 
-  - **스크린샷 링크화** (캡처 후 클립보드에 자동으로 저장됨)
+  - **스크린샷 링크화** (캡처 후 클립보드에 자동으로 저장됨) : GIF를 재생해보세요. 
 
-![스크린샷 링크화](https://cdn.discordapp.com/attachments/393025698907947009/1219232242224595025/2240875837fbeaae.gif?ex=660a8d82&is=65f81882&hm=d01a68e588bdbf8e7e6681fc91a0d387e815dd20f5168742aa277c2e116abe8c&)
-  - **피드 자동 업로드 예시**
+  ![스크린샷 링크화](https://cdn.discordapp.com/attachments/393025698907947009/1219232242224595025/2240875837fbeaae.gif?ex=660a8d82&is=65f81882&hm=d01a68e588bdbf8e7e6681fc91a0d387e815dd20f5168742aa277c2e116abe8c&)
+  - **피드 자동 업로드 예시** (캡처 후 커뮤니티에 자동으로 업로드됨) : GIF를 재생해보세요.
 
-![피드 자동 업로드](https://media.discordapp.net/attachments/393025698907947009/1219229951622905956/a2cbc38adccb09cf.gif?ex=660a8b60&is=65f81660&hm=300c873da8a056c877c0762224375a6baa22efb6dab8c45969bc51bf1eda52fa&=&width=895&height=503)
+  ![피드 자동 업로드](https://media.discordapp.net/attachments/393025698907947009/1219229951622905956/a2cbc38adccb09cf.gif?ex=660a8b60&is=65f81660&hm=300c873da8a056c877c0762224375a6baa22efb6dab8c45969bc51bf1eda52fa&=&width=895&height=503)
 
 - 이 밖에도 **Pyre**는 다양한 **기능**을 제공합니다:
 

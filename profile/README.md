@@ -5,7 +5,6 @@
 #### [Github 조직](https://github.com/Pyre-org) 
 #### 윈도우 [프로그램 다운로드 링크](http://naver.me/xc93Mkq0)
 
-
 ## 🏢 TEAM
 - ### Backend 
   - 허재우 (CSE, UNIST)
@@ -17,6 +16,7 @@
     - Email: gazebo5@naver.com
 ---
 ---
+
 ## 목차
 - [**1. Pyre 소개**](#1-pyre-소개)
 - [**2. 기술 스택**](#2-기술-스택)
@@ -99,6 +99,10 @@
 	- 기본 스페이스를 설정할 시 스크린샷 캡처시 자동으로 해당 스페이스에 피드가 업로드 됩니다.
 	- **캡처룸 사용 여부**: 체크할 시 기본 스페이스가 속해 있는 채널의 '방금 캡처됨'룸에도 자동으로 피드가 업로드 됩니다.
 	- **캡처 시 팝업 입력창 표시 여부**: 체크할 시 스크린샷 캡처시 제목 또는 설명을 작성할 수 있는 팝업창을 띄울 수 있습니다.
+
+---
+---
+
 # 2. 기술 스택
 ## 🛠 Backend
   - Java 21
@@ -124,6 +128,9 @@
   - React Query for Server state management
   - TailwindCss for styling
   - Shadcn/ui for component library
+
+---
+---
 
 # 3. 프로젝트 구조
 ## 🔅 Backend
@@ -155,6 +162,8 @@
 
 ## 🔅 Frontend
 
+---
+---
 
 # 4. 빌드 및 실행 가이드
 ### 1. 레포지토리 클론
@@ -189,6 +198,7 @@ yarn build:mac
 ```
 ### 4. 설치 및 실행
 빌드 후 생성된 dist 폴더 안의 pyre-front-1.0.0-setup 실행 파일 실행
+
 
 ---
 ---

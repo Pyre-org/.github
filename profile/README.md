@@ -269,7 +269,7 @@ yarn build:mac
 ### 스페이스 위치 변경: 일반 피드와 일반 채팅 방은 변경할 수 없습니다.
 ![스페이스 위치 변경](https://github.com/Pyre-org/.github/assets/39799541/71c28a9f-d3a6-4e58-8bef-8c6265199af7)
 
-### 초대코드 생성: 비공개 룸은 초대코드를 통해 가입할 수 있습니다.
+### 초대코드 생성: 비공개 룸은 초대코드를 통해 가입할 수 있습니다. 초대코드는 7일간 사용 가능하며, 재생성 시 이전 코드는 사용할 수 없습니다.
 ![룸 초대코드 생성](https://github.com/Pyre-org/.github/assets/39799541/26632a54-ddca-4e0f-b3f2-db4f0bdbc7ed)
 
 초대 예시 코드: pyre://invitations/ffff76bf

@@ -18,13 +18,13 @@
 ---
 ---
 ## 목차
-- [**1. Pyre 소개**](#pyre-소개)
-- [**2. 기술 스택**](#🛠-기술-스택)
-- [**3. 프로젝트 구조**](#프로젝트-구조)
-- [**4. 빌드 및 실행 가이드**](#빌드-및-실행-가이드)
-- [**5. 미디어 자료**](#이미지)
+- [**1. Pyre 소개**](#1-pyre-소개)
+- [**2. 기술 스택**](#2-기술-스택)
+- [**3. 프로젝트 구조**](#3-프로젝트-구조)
+- [**4. 빌드 및 실행 가이드**](#4-빌드-및-실행-가이드)
+- [**5. 미디어 자료**](#5-이미지)
 
-# Pyre 소개
+# 1. Pyre 소개
 ## ❓ Pyre란 무엇인가요?
 - [파이어 이미지 보러가기](#이미지)
 - [파이어 사용 GIF 보러가기](#영상)
@@ -99,8 +99,8 @@
 	- 기본 스페이스를 설정할 시 스크린샷 캡처시 자동으로 해당 스페이스에 피드가 업로드 됩니다.
 	- **캡처룸 사용 여부**: 체크할 시 기본 스페이스가 속해 있는 채널의 '방금 캡처됨'룸에도 자동으로 피드가 업로드 됩니다.
 	- **캡처 시 팝업 입력창 표시 여부**: 체크할 시 스크린샷 캡처시 제목 또는 설명을 작성할 수 있는 팝업창을 띄울 수 있습니다.
-# 🛠 기술 스택
-##  Backend
+# 2. 기술 스택
+## 🛠 Backend
   - Java 21
   - Spring Boot (3.2.2)
   - Spring Web
@@ -116,7 +116,7 @@
     
   - Open API Swagger
   
-## Frontend
+## 🛠 Frontend
   - Electron with Vite
   - React + Typescript
   - React Hook Form with Zod
@@ -125,8 +125,8 @@
   - TailwindCss for styling
   - Shadcn/ui for component library
 
-# 🔅 프로젝트 구조
-## Backend
+# 3. 프로젝트 구조
+## 🔅 Backend
 <img src="https://cdn.discordapp.com/attachments/393025698907947009/1219214404193882122/d51f8c7f765ef5fd.png?ex=660a7ce5&is=65f807e5&hm=348780b6d433faa213bdaee0b5e359d70b1ba34feca3eed253418572291faa07&" alt="drawing" width="600"/>
 
 #### [PyreGateway](https://github.com/Pyre-org/PyreGateway-source.git)
@@ -153,10 +153,10 @@
     - Swagger API [링크](https://apis.pyre.live/feed/swagger-ui/index.html)
 ###### PyreChat - 구현 예정..
 
-## Frontend
+## 🔅 Frontend
 
 
-# 🧰 빌드 및 실행 가이드
+# 4. 빌드 및 실행 가이드
 ### 1. 레포지토리 클론
 ```
 git clone https://github.com/Pyre-org/Pyre-Frontend.git
@@ -201,7 +201,7 @@ yarn build:mac
 ---
 
 
-# 이미지
+# 5. 이미지
 ### 로그인 페이지
 ![로그인 페이지](https://github.com/Pyre-org/.github/assets/39799541/12597fa4-8f61-4b0d-bb35-dc906759dc58)
 

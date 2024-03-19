@@ -195,7 +195,7 @@ yarn build:mac
 ![image](https://github.com/Pyre-org/.github/assets/39799541/6c6c6483-da77-4e73-a8e8-890bad341793)
 ![image](https://github.com/Pyre-org/.github/assets/39799541/da5f9c86-4cd8-4f49-9bee-92e6bb0d8319)
 
-### 다크크 모드 전환
+### 다크 모드 전환
 ![image](https://github.com/Pyre-org/.github/assets/39799541/e4babf86-8003-4593-a0ff-04f57c9ce601)
 
 

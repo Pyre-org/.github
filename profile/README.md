@@ -15,8 +15,16 @@
   - 황찬휘 (CSE, UNIST)
     - [Github](https://github.com/chan-hwi)
     - Email: gazebo5@naver.com
+---
+---
+## 목차
+- [**1. Pyre 소개**](#pyre-소개)
+- [**2. 기술 스택**](#기술-스택)
+- [**3. 프로젝트 구조**](#프로젝트-구조)
+- [**4. 빌드 및 실행 가이드**](#빌드-및-실행-가이드)
+- [**5. 미디어 자료**](#이미지)
 
-
+# Pyre 소개
 ## ❓ Pyre란 무엇인가요?
 - [파이어 이미지 보러가기](#이미지)
 - [파이어 사용 GIF 보러가기](#영상)
@@ -91,8 +99,8 @@
 	- 기본 스페이스를 설정할 시 스크린샷 캡처시 자동으로 해당 스페이스에 피드가 업로드 됩니다.
 	- **캡처룸 사용 여부**: 체크할 시 기본 스페이스가 속해 있는 채널의 '방금 캡처됨'룸에도 자동으로 피드가 업로드 됩니다.
 	- **캡처 시 팝업 입력창 표시 여부**: 체크할 시 스크린샷 캡처시 제목 또는 설명을 작성할 수 있는 팝업창을 띄울 수 있습니다.
-  
-## 🛠 기술 스택 - Backend
+# 🛠 기술 스택
+##  Backend
   - Java 21
   - Spring Boot (3.2.2)
   - Spring Web
@@ -108,7 +116,7 @@
     
   - Open API Swagger
   
-## 🛠 기술 스택 - Frontend
+## Frontend
   - Electron with Vite
   - React + Typescript
   - React Hook Form with Zod
@@ -117,7 +125,38 @@
   - TailwindCss for styling
   - Shadcn/ui for component library
 
-## 🧰 빌드 및 실행 가이드
+# 🔅 프로젝트 구조
+## Backend
+<img src="https://cdn.discordapp.com/attachments/393025698907947009/1219214404193882122/d51f8c7f765ef5fd.png?ex=660a7ce5&is=65f807e5&hm=348780b6d433faa213bdaee0b5e359d70b1ba34feca3eed253418572291faa07&" alt="drawing" width="600"/>
+
+#### [PyreGateway](https://github.com/Pyre-org/PyreGateway-source.git)
+  - **Gateway**: 백엔드와 프론트의 통신문
+  - **기능**: API 라우팅, 유저 인증 및 권한 확인, 로드밸런싱
+#### [PyreAuth](https://github.com/Pyre-org/PyreAuth-source.git)
+  - **기능**:
+    - 유저의 회원가입, 로그인 등 인증 및 인가를 관리합니다.
+    - Oauth2도 함께 관리합니다.
+    - JWT (access token + refresh token) 발급 및 Redis를 통해 refresh를 저장합니다.
+    - 저장된 리프레시 토큰은 1번 사용되면 다시 재발급 + 재저장 됩니다.
+    - 이미지 업로드를 위한 S3 업로드 서비스가 포함되어 있습니다.
+    - 유저 프로필 관리 및 이메일 서비스도 함께 포함되어 있습니다.
+    - Swagger API [링크](https://apis.pyre.live/auth-service/swagger-ui/index.html)
+#### [PyreCommunity](https://github.com/Pyre-org/PyreCommunity.git)
+  - **기능**:
+    - 관계형 데이터베이스를 사용하여 파이어 커뮤니티의 채널-룸-스페이스 계층의 데이터를 관리합니다.
+    - Redis를 사용하여 기간제 룸 초대권을 생성 및 관리합니다.
+    - Swagger API [링크](https://apis.pyre.live/community/swagger-ui/index.html)
+#### [PyreFeed](https://github.com/Pyre-org/pyreFeedMvc.git)
+  - **기능**:
+    - NoSQL 데이터베이스 MongoDB를 사용하여 파이어의 피드 데이터를 관리합니다.
+    - 스크린샷으로부터 발생하는 피드를 저장하고, 조회할 수 있습니다.
+    - Swagger API [링크](https://apis.pyre.live/feed/swagger-ui/index.html)
+###### PyreChat - 구현 예정..
+
+## Frontend
+
+
+# 🧰 빌드 및 실행 가이드
 ### 1. 레포지토리 클론
 ```
 git clone https://github.com/Pyre-org/Pyre-Frontend.git
@@ -150,36 +189,6 @@ yarn build:mac
 ```
 ### 4. 설치 및 실행
 빌드 후 생성된 dist 폴더 안의 pyre-front-1.0.0-setup 실행 파일 실행
-
-## 🔅 프로젝트 구조
-### Backend
-<img src="https://cdn.discordapp.com/attachments/393025698907947009/1219214404193882122/d51f8c7f765ef5fd.png?ex=660a7ce5&is=65f807e5&hm=348780b6d433faa213bdaee0b5e359d70b1ba34feca3eed253418572291faa07&" alt="drawing" width="600"/>
-
-#### [PyreGateway](https://github.com/Pyre-org/PyreGateway-source.git)
-  - **Gateway**: 백엔드와 프론트의 통신문
-  - **기능**: API 라우팅, 유저 인증 및 권한 확인, 로드밸런싱
-#### [PyreAuth](https://github.com/Pyre-org/PyreAuth-source.git)
-  - **기능**:
-    - 유저의 회원가입, 로그인 등 인증 및 인가를 관리합니다.
-    - Oauth2도 함께 관리합니다.
-    - JWT (access token + refresh token) 발급 및 Redis를 통해 refresh를 저장합니다.
-    - 저장된 리프레시 토큰은 1번 사용되면 다시 재발급 + 재저장 됩니다.
-    - 이미지 업로드를 위한 S3 업로드 서비스가 포함되어 있습니다.
-    - 유저 프로필 관리 및 이메일 서비스도 함께 포함되어 있습니다.
-    - Swagger API [링크](https://apis.pyre.live/auth-service/swagger-ui/index.html)
-#### [PyreCommunity](https://github.com/Pyre-org/PyreCommunity.git)
-  - **기능**:
-    - 관계형 데이터베이스를 사용하여 파이어 커뮤니티의 채널-룸-스페이스 계층의 데이터를 관리합니다.
-    - Redis를 사용하여 기간제 룸 초대권을 생성 및 관리합니다.
-    - Swagger API [링크](https://apis.pyre.live/community/swagger-ui/index.html)
-#### [PyreFeed](https://github.com/Pyre-org/pyreFeedMvc.git)
-  - **기능**:
-    - NoSQL 데이터베이스 MongoDB를 사용하여 파이어의 피드 데이터를 관리합니다.
-    - 스크린샷으로부터 발생하는 피드를 저장하고, 조회할 수 있습니다.
-    - Swagger API [링크](https://apis.pyre.live/feed/swagger-ui/index.html)
-###### PyreChat - 구현 예정..
-
-### Frontend
 
 ---
 ---

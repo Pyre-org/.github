@@ -18,6 +18,7 @@
 
 
 ## ❓ Pyre란 무엇인가요?
+- [파이어 이미지 보러가기](#이미지)
 - [파이어 사용 GIF 보러가기](#영상)
 - **Pyre**는 스크린샷 관련 기능을 강화한 애플리케이션입니다. 주요 기능은 다음과 같습니다:
 
@@ -154,9 +155,108 @@ yarn build:mac
 
 ### Frontend
 
+# 이미지
+### 로그인 페이지
+![로그인 페이지](https://github.com/Pyre-org/.github/assets/39799541/12597fa4-8f61-4b0d-bb35-dc906759dc58)
+
+### 회원가입 페이지
+![회원가입 페이지](https://github.com/Pyre-org/.github/assets/39799541/71135512-5d7b-48fa-8973-663c120a55a7)
+
+### 마이페이지 최신 피드
+![마이페이지 최신 피드](https://github.com/Pyre-org/.github/assets/39799541/fb279aea-2e17-4528-8b7b-e3ac7db2f1a6)
+
+### 마이페이지 나의 피드
+![image](https://github.com/Pyre-org/.github/assets/39799541/178c0529-2503-4a73-a8b2-b6028484eebf)
+
+### 채널 메인 페이지
+![image](https://github.com/Pyre-org/.github/assets/39799541/9c48449c-7121-40cd-8e9e-e6d874d71dc4)
+
+### 채널 선택 후 페이지
+![image](https://github.com/Pyre-org/.github/assets/39799541/b41a3468-75cc-46e7-b0e3-8b4bb72950c1)
+
+### 룸 방금 캡처됨 페이지
+![image](https://github.com/Pyre-org/.github/assets/39799541/4de3c570-6325-4fad-bc71-5eabd88a093f)
+
+### 프로필 페이지
+![image](https://github.com/Pyre-org/.github/assets/39799541/8ba88d32-c50e-439e-8a0f-ca1b10ac6341)
+
+### 프로필 설정 페이지
+![image](https://github.com/Pyre-org/.github/assets/39799541/6c6c6483-da77-4e73-a8e8-890bad341793)
+![image](https://github.com/Pyre-org/.github/assets/39799541/da5f9c86-4cd8-4f49-9bee-92e6bb0d8319)
+
+### 다크크 모드 전환
+![image](https://github.com/Pyre-org/.github/assets/39799541/e4babf86-8003-4593-a0ff-04f57c9ce601)
+
+
 # 영상
-### 채널 생성(채널 승인 요청)
-![채널 승인 요청](https://media.discordapp.net/attachments/393025698907947009/1219229952654970900/3da16a0c86508e94.gif?ex=660a8b60&is=65f81660&hm=674e7d03ca7cf65cbf086088436f6428310023be0fd4384ddcabe4d78ceb15b4&=&width=895&height=503)
+### 회원가입 이메일 인증
+![회원가입 이메일 인증](https://github.com/Pyre-org/.github/assets/39799541/57a6e501-5c0f-4920-b31d-248cf51fd8d3)
+
+### 프로필 수정
+![프로필 수정](https://github.com/Pyre-org/.github/assets/39799541/2d0c1904-cf94-417d-8228-1dd3a1473010)
+
+### 채널 구독
+![채널 구독](https://github.com/Pyre-org/.github/assets/39799541/8517f509-ab25-41f2-88d0-cb2fbb8261bd)
+
+### 우측 채널 검색
+![우측 채널 검색](https://github.com/Pyre-org/.github/assets/39799541/b9be9461-9028-47fa-9c7f-08dbb81d1267)
+
+### 공개 타입의 룸 검색
+![공개 타입의 룸 검색](https://github.com/Pyre-org/.github/assets/39799541/0e4b6cbe-d326-4d37-a5db-db64ffa3535d)
+
+### 룸 생성
+![룸 생성](https://github.com/Pyre-org/.github/assets/39799541/c7d1b334-3683-49f6-9c60-978be38f10cc)
+
+### 룸 수정
+![룸 수정](https://github.com/Pyre-org/.github/assets/39799541/9d0d99fd-0f52-4336-8067-bd05f3c2c6ef)
+
+### 룸 삭제
+![룸 삭제](https://github.com/Pyre-org/.github/assets/39799541/6a99b847-d4ac-4328-848e-2c85755d24ff)
+
+### 룸 참가 및 탈퇴: 룸의 주인은 탈퇴를 할 수 없습니다.
+![룸 참가 및 탈퇴](https://github.com/Pyre-org/.github/assets/39799541/719172fa-4e6b-4faa-ac41-615d1ea55e17)
+
+### 룸 위치 변경: 공용과 방금 캡처 됨 룸은 변경할 수 없습니다.
+![룸 위치 변경](https://github.com/Pyre-org/.github/assets/39799541/1f66e23e-bf07-43a5-ac79-fd5088cc17d6)
+
+
+### 스페이스 생성
+![스페이스 생성](https://github.com/Pyre-org/.github/assets/39799541/82c1bdff-8d73-4b5b-842e-9690258a36d5)
+
+### 스페이스 수정
+![스페이스 수정](https://github.com/Pyre-org/.github/assets/39799541/3ec82f74-cdba-4ab2-b644-c501d355125e)
+
+### 스페이스 삭제: 일반 피드와 일반 채팅 방은 삭제할 수 없습니다.
+![스페이스 삭제](https://github.com/Pyre-org/.github/assets/39799541/601acf17-4a90-458e-a5b8-24b1ec9f3530)
+
+### 스페이스 위치 변경: 일반 피드와 일반 채팅 방은 변경할 수 없습니다.
+![스페이스 위치 변경](https://github.com/Pyre-org/.github/assets/39799541/71c28a9f-d3a6-4e58-8bef-8c6265199af7)
+
+### 초대코드 생성: 비공개 룸은 초대코드를 통해 가입할 수 있습니다.
+![룸 초대코드 생성](https://github.com/Pyre-org/.github/assets/39799541/26632a54-ddca-4e0f-b3f2-db4f0bdbc7ed)
+
+초대 예시 코드: pyre://invitations/ffff76bf
+
+### 초대코드 사용
+![초대코드 사용](https://github.com/Pyre-org/.github/assets/39799541/cc7b94d5-c38c-4638-a24b-d8af0189b2f8)
+
+### 룸 및 스페이스 전체 검색: 파이어에 공개된 룸 또는 내가 참가한 룸 및 게스트 읽기 권한이 있는 스페이스만 조회됩니다.
+![룸 및 스페이스 검색](https://github.com/Pyre-org/.github/assets/39799541/c06f5ea9-695b-4b99-b2b9-da7571585628)
+
+### 피드 업로드
+![피드 업로드](https://github.com/Pyre-org/.github/assets/39799541/015af3b4-882e-4d28-b6b0-a7c149aeba5b)
+
+### 피드 수정
+![피드 수정](https://github.com/Pyre-org/.github/assets/39799541/4642e8f4-bee7-4944-806e-2fecf2c17902)
+
+### 피드 삭제
+![피드 삭제](https://github.com/Pyre-org/.github/assets/39799541/bbf74e2d-4417-4641-ab1c-6663bc683253)
+
+### 피드 스크린샷 캡처로 업로드 (CTRL + SHIFT + D 전체 캡처, CTRL + SHIFT + C 영역 캡처)
+#### 아래와 같이 설정이 필요합니다.
+
+피드 팝업 창
+스크린샷 링크화 
 ### 채널 구독 및 룸 생성
 ![채널 구독 및 룸 생성](https://cdn.discordapp.com/attachments/393025698907947009/1219229949911892018/d2a22948f56fd7a8.gif?ex=660a8b60&is=65f81660&hm=ae5cbd6599d5dab340d015c936a78d96b239280ff9c77986978d0560add1c0fb&)
 ### 룸 정보 수정

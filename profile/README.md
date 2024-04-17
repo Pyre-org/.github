@@ -38,11 +38,11 @@
   - **스크린샷 링크화** (캡처 후 클립보드에 자동으로 저장됨) : GIF를 재생해보세요.
 
   
-  ![스크린샷 링크화](https://github.com/Pyre-org/.github/assets/39799541/23cb28f7-895b-4337-90da-ed50787e53ec)
+  ![스크린샷 링크화](https://github.com/Pyre-org/.github/assets/39799541/6cfc377a-1d9f-4f36-9d58-1e22d9dff4b3)
   
   - **피드 자동 업로드 예시** (캡처 후 커뮤니티에 자동으로 업로드됨. 별도 개인설정 필요) : GIF를 재생해보세요.
 
-  ![피드 자동 업로드](https://github.com/Pyre-org/.github/assets/39799541/363c2747-a20c-4f50-8572-95df47eeaa58)
+  ![피드 자동 업로드](https://github.com/Pyre-org/.github/assets/39799541/c2b17889-b9f9-4a41-ba77-b26e3545ebd3)
 
 - 이 밖에도 **Pyre**는 다양한 **기능**을 제공합니다:
 
@@ -324,7 +324,7 @@ yarn build:mac
 ### 피드 스크린샷 캡처로 업로드 (CTRL + SHIFT + D 전체 캡처, CTRL + SHIFT + C 영역 캡처)
 #### 스크린샷을 통한 피드 업로드는 설정에서 기본 스페이스 설정 및 피드 팝업에 대한 설정이 필요합니다.
 
-![피드 자동 업로드](https://github.com/Pyre-org/.github/assets/39799541/363c2747-a20c-4f50-8572-95df47eeaa58)
+![피드 자동 업로드](https://github.com/Pyre-org/.github/assets/39799541/c2b17889-b9f9-4a41-ba77-b26e3545ebd3)
 
 ### 스크린샷 링크화 (캡처 후 클립보드에 자동으로 저장됨)
-![스크린샷 링크화](https://github.com/Pyre-org/.github/assets/39799541/23cb28f7-895b-4337-90da-ed50787e53ec)
+![스크린샷 링크화](https://github.com/Pyre-org/.github/assets/39799541/6cfc377a-1d9f-4f36-9d58-1e22d9dff4b3)

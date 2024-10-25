@@ -115,12 +115,14 @@
   - Spring Cloud
   
   - Jwt
+  - OAuth 2.0
   - Spring Security
   
   - Mysql
   - Redis
   - MongoDB for PyreFeed
-    
+
+  - AWS
   - Open API Swagger
   
 ## 🛠 Frontend
@@ -142,7 +144,7 @@
 
 #### [PyreGateway](https://github.com/Pyre-org/PyreGateway-source.git)
   - **Gateway**: 백엔드와 프론트의 통신문
-  - **기능**: API 라우팅, 유저 인증 및 권한 확인, 로드밸런싱
+  - **기능**: API 라우팅, 유저 인가, 로드밸런싱
 #### [PyreAuth](https://github.com/Pyre-org/PyreAuth-source.git)
   - **기능**:
     - 유저의 회원가입, 로그인 등 인증 및 인가를 관리합니다.
